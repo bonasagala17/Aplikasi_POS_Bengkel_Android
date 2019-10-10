@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AtmaAuto</string>
+    <string name="motto">Solusi Terbaik Bagi Motor Anda</string>
+    <string name="masuk">MASUK</string>
+    <string name="usernameLabel">Username</string>
+    <string name="passwordLabel">Password</string>
+
+    <string-array name="spinnerLetak">
+        <item>DPN</item>
+        <item>TGH</item>
+        <item>BLK</item>
+    </string-array>
+
+    <string-array name="spinnerRuang">
+        <item>KACA</item>
+        <item>DUS</item>
+        <item>BAN</item>
+        <item>KAYU</item>
+    </string-array>
+
+    <string-array name="spinnerPenjualan">
+        <item>Sparepart</item>
+        <item>Jasa Service</item>
+        <item>Jasa Service dan Sparepart</item>
+    </string-array>
+
+    <string name="txtCredits"><a href="google.com">www.google.com</a></string>
+    <string name="txtLaporanPendapatanTahunan">http://192.168.19.140/atmaautok1/mobile_laporan_pendapatan_tahunan.php</string>
+    <string name="txtLaporanPendapatanBulanan">http://192.168.19.140/atmaautok1/mobile_laporan_pendapatan_bulanan.php</string>
+    <string name="txtLaporanPengeluaran">http://192.168.19.140/atmaautok1/mobile_laporan_pengeluaran.php</string>
+    <string name="txtLaporanPenjualanJasa">http://192.168.19.140/atmaautok1/mobile_laporan_penjualan_jasa.php</string>
+    <string name="txtLaporanSisaStok">http://192.168.19.140/atmaautok1/mobile_laporan_sisa_stok.php</string>
+    <string name="txtLaporanSparepartTerlaris">http://192.168.19.140/atmaautok1/mobile_laporan_sparepart_terlaris.php</string>
+
+</resources>

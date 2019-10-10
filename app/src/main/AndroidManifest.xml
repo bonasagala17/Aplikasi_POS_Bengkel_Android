@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bonasagala.atmaauto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.SplashAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.GetStartedAct" />
+        <activity android:name=".view.MasukAct" />
+        <activity android:name=".view.SuksesMasukAct" />
+        <activity android:name=".view.HomeAct" />
+        <activity
+            android:name=".view.Kelola_Data_CabangAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.CabangEditorAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_SupplierAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.SupplierEditorAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_SparepartAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.SparepartEditorAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_KonsumenAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.KonsumenEditorAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_PembelianAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.PembelianEditorAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_Penjualan"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Penjualan_EditorAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_DetailPembelianAct"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.DetailPembelianEditor"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_Detail_Penjualan_Sparepart"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.DetailPenjualanSparepart_Editor"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_Penjualan_JasaService"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.PenjualanJasaService_Editor"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_PenjualanJS_SP"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.PenjualanJS_SPeditor"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_Katalog_Act"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.Kelola_Data_History_Masuk_Act"
+            android:theme="@style/EditorTheme" />
+        <activity
+            android:name=".view.KatalogEditorAct"
+            android:theme="@style/EditorTheme" />
+        <activity android:name=".view.TampilInfoBengkel" />
+        <activity android:name=".view.Kelola_Data_History_Keluar_Act" />
+        <activity android:name=".Menu_History_Act" />
+        <activity android:name=".view.HomeCSact" />
+        <activity android:name=".view.Kelola_Tampil_Laporan"></activity>
+    </application>
+
+</manifest>

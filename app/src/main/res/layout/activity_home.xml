@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.HomeAct"
+    tools:layout_editor_absoluteY="25dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gradient_primary_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/mregular"
+        android:text="Home"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nama_pegawai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/mmedium"
+        android:text="Bona"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/role"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/mlight"
+        android:text="Owner"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mregular"
+            android:text="Main Menu"
+            android:textColor="@color/blackPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/mlight"
+            android:text="AtmaAuto"
+            android:textColor="@color/grayPrimary"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#EDEDED" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_spareparts"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:layout_marginRight="24dp"
+                        android:src="@drawable/spare_parts" />
+
+                    <ImageView
+                        android:id="@+id/img_supplier"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:layout_marginRight="24dp"
+                        android:src="@drawable/supplier" />
+
+                    <ImageView
+                        android:id="@+id/img_cabang"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:layout_marginRight="24dp"
+                        android:src="@drawable/cabang" />
+
+                    <ImageView
+                        android:id="@+id/img_konsumen"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:layout_marginRight="24dp"
+                        android:src="@drawable/konsumen" />
+
+                    <ImageView
+                        android:id="@+id/img_pembelian"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:layout_marginRight="24dp"
+                        android:src="@drawable/pembelian" />
+
+                    <ImageView
+                        android:id="@+id/img_penjualan_sparepart"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:src="@drawable/penjualan_sparepart" />
+
+                    <ImageView
+                        android:id="@+id/img_history"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:src="@drawable/histori" />
+
+                    <ImageView
+                        android:id="@+id/img_laporan"
+                        android:layout_width="227dp"
+                        android:layout_height="98dp"
+                        android:src="@drawable/laporan" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#EDEDED" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
